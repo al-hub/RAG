@@ -17,7 +17,9 @@
 - 문서 -> Chunking -> 임베딩계산 -> Vector index에 저장 -> VectorDB  
 -                                                    사용자 질문에 사용  
 - Client Data -> Data Processing -> Generate embeddings -> Embeddings -> Save embeddings -> VectorDB  
-- User -> Query -> GenAI Ap -> VectorDB , GenAI App <- LLM  
+- User -> Query -> GenAI Ap -> VectorDB , GenAI App <- LLM
+- chunking (문서가 길때 나누는 것) : 너무크도 문제, 너무 작아도 문제 
+- 
 
 ## 시스템 만들기  
 - FineTunning을 할까(LoRa)? or RAG를 할까?  
