@@ -5,7 +5,7 @@
 - Grounding : 모르는 거 말하지 말고, 주는 거 읽어 --> 니가 생각하지말고 답만해  
 - LLM에게 정보를 주는 것  
 
-## Embedding  
+### Embedding  
 
 - Embedding 자체는 숫자리스트  
 - 위치 표현  
@@ -13,7 +13,7 @@
 - similarity(0~1)를 구할 수 있음 : 단어 or 문장 등을 통채로 넣을 수 있음  
 - 예시로 환율을 Embbeding을 만들어서, 뉴스를 가지고와서 찾을 수 있음  
 
-## VectorDB  
+### VectorDB  
 - 문서 -> Chunking -> 임베딩계산 -> Vector index에 저장 -> VectorDB  
 -                                                    사용자 질문에 사용  
 - Client Data -> Data Processing -> Generate embeddings -> Embeddings -> Save embeddings -> VectorDB  
@@ -21,7 +21,7 @@
 - chunking (문서가 길때 나누는 것) : 너무크도 문제, 너무 작아도 문제 
 - 
 
-## 시스템 만들기  
+### 시스템 만들기  
 - FineTunning을 할까(LoRa)? or RAG를 할까?  
 - 데이터보호 : On-prem(회사내설치), 기존의 data store를 vector-serchable, GDPR(전세계적으로 돌아가야하는 경우), RAI(윤리적AI, responsibile)
 
